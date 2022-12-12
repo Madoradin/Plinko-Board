@@ -128,5 +128,10 @@ public class GameManager : MonoBehaviour
         return gameOverScreen.enabled;
     }
 
+    public void OnClickExit()
+    {
+        Application.Quit();
+    }
+
 
 }
